@@ -1,14 +1,13 @@
 import Logger, { log } from "./logger";
 
 log("Hello from module1");
-const logger = new Logger("Default");
+const logger = new Logger("Luiggy");
 logger.log("Hello from module1");
 
+let name = 'Luiggy'
 // const log = console.log
 
-let a = {
-  default: "a",
+if (logger.name === name) {
+    
+    import('./logger')
 }
-
-const {default:b} = a;
-log(b);
