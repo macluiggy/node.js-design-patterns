@@ -1,6 +1,6 @@
 export const log = (message: string) => console.log(message);
 
-export class Logger {
+export default class Logger {
   public name: string;
   constructor(name: string) {
     this.name = name;
