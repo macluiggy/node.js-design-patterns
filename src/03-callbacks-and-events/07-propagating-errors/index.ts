@@ -4,7 +4,7 @@ function readJson(filename: string, callback: Function) {
   readFile(filename, "utf8", (err, data) => {
     let parsed;
     if (err) {
-      // 
+      //
       return callback(err);
     }
 
@@ -18,3 +18,19 @@ function readJson(filename: string, callback: Function) {
     callback(null, parsed);
   });
 }
+
+readJson("invalid_json.json", (err, data) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log(data);
+  }
+});
+
+readJson("valid_json.json", (err, data) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log(data);
+  }
+});
