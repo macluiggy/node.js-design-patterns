@@ -21,3 +21,10 @@ try {
 } catch (err) {
   console.log("This will NOT catch the JSON parsing exception");
 }
+
+process.on('uncaughtException', (err) => {
+  console.error(`This will catch at last the JSON parsing exception: ${err.message}`)
+  // Terminates the application with 1 (error) as exit code.
+  // Without the following line, the application would continue
+  process.exit(1)
+})
