@@ -1,0 +1,17 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_UNEXPECTED_STORE",
+    "expectedStorePath": "/home/luiggy/.pnpm-store/v3",
+    "actualStorePath": "/home/luiggy/.local/share/pnpm/store/v3",
+    "modulesDir": "/home/luiggy/PROGRAMMING/NODE/node.js-design-patterns/node_modules",
+    "err": {
+      "name": "pnpm",
+      "message": "Unexpected store location",
+      "code": "ERR_PNPM_UNEXPECTED_STORE",
+      "stack": "pnpm: Unexpected store location\n    at checkCompatibility (/home/luiggy/.nvm/versions/node/v16.13.1/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:92781:15)\n    at /home/luiggy/.nvm/versions/node/v16.13.1/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:93303:44\n    at Array.map (<anonymous>)\n    at validateModules (/home/luiggy/.nvm/versions/node/v16.13.1/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:93301:34)\n    at getContext (/home/luiggy/.nvm/versions/node/v16.13.1/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:93197:34)\n    at async mutateModules (/home/luiggy/.nvm/versions/node/v16.13.1/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:120072:19)\n    at async handler (/home/luiggy/.nvm/versions/node/v16.13.1/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:121660:35)\n    at async /home/luiggy/.nvm/versions/node/v16.13.1/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:182701:21\n    at async run (/home/luiggy/.nvm/versions/node/v16.13.1/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:182675:34)\n    at async runPnpm (/home/luiggy/.nvm/versions/node/v16.13.1/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.7/node_modules/pnpm/dist/pnpm.cjs:182893:5)"
+    }
+  }
+}
